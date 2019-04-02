@@ -16,3 +16,5 @@
 * CSS Reset / Normalize.css
 * BEM Methodology
 * Flexbox
+* Mobile Considerations (Viewport)
+* React-Router
