@@ -14,3 +14,7 @@ button {
 button:disabled {
     cursor: default; //when the button is disabled, dont show the "hand" pointer
 }
+
+.is-active {
+    font-weight: bold;
+}
