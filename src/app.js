@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Route } from 'react-router-dom';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
@@ -29,17 +29,25 @@ const HelpPage = () => (
     </div>
 );
 
+const NotFoundPage = () => (
+    <div>
+        404!
+    </div>
+);
+
 //path prop = what is the endpoint
 //component prop = what is the component to show
 //exact prop = match the exact route listed in path
+//Switch component - loop through all of the Routes that match; last Route will always match because no path
 const routes = (
     <BrowserRouter>
-        <div>
+        <Switch>
             <Route path="/" component={ExpenseDashboardPage} exact={true}/> 
             <Route path="/create" component={AddExpensePage} />
             <Route path="/edit" component={EditExpensePage} />
             <Route path="/help" component={HelpPage} />
-        </div> 
+            <Route component={NotFoundPage} />
+        </Switch> 
     </BrowserRouter>
 );
 
