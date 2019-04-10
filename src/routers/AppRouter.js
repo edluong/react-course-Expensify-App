@@ -12,6 +12,7 @@ import Header from '../components/Header';
 //component prop = what is the component to show
 //exact prop = match the exact route listed in path
 //Switch component - loop through all of the Routes that match; last Route will always match because no path
+// Route components will pass props down to the components used. Such as match,location, history
 const AppRouter = () => (
     <BrowserRouter>
         <div>
@@ -19,7 +20,7 @@ const AppRouter = () => (
             <Switch>
                 <Route path="/" component={ExpenseDashboardPage} exact={true}/> 
                 <Route path="/create" component={AddExpensePage} />
-                <Route path="/edit" component={EditExpensePage} />
+                <Route path="/edit/:id" component={EditExpensePage} />
                 <Route path="/help" component={HelpPage} />
                 <Route component={NotFoundPage} />
             </Switch> 
