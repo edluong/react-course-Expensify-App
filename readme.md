@@ -18,3 +18,4 @@
 * Flexbox
 * Mobile Considerations (Viewport)
 * React-Router
+* Redux
