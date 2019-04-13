@@ -21,10 +21,14 @@ const set = ({ count }) => ({
     count
 });
 
-
-// set up a state container
 // state has no default so set count to 0 inside the function
-const store = createStore((state = { count: 0 }, action) => {
+// this function is known as a Reducer
+
+// 1. Reducers are pure functions (only use input given to the function, action and state)
+// 2. Never change state or action, do not change them directly
+
+
+const countReducer = (state = { count: 0 }, action) => {
     
     // by convention use a switch statement for actions
     switch (action.type) {
@@ -47,7 +51,12 @@ const store = createStore((state = { count: 0 }, action) => {
         default:
             return state;
     }
-});
+};
+
+
+// set up a state container
+const store = createStore(countReducer());
+
 
 // see when a store changes
 const unsubscribe = store.subscribe( () => {

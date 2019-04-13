@@ -18,4 +18,4 @@
 * Flexbox
 * Mobile Considerations (Viewport)
 * React-Router
-* Redux (Actions, Dynamic Actions, Subscribing)
+* Redux ((Dynamic) Actions, (Un)Subscribing, Reducers)
