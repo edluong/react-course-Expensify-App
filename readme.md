@@ -6,7 +6,7 @@
 * JSX
 * Babel CLI and Core
 * Babel Presets
-* ES6 (syntax, classes, let vs const)
+* ES6 (syntax, classes, let vs const, destructuring)
 * Component Props and States
 * Stateless Function Components / Class Based Components
 * Lifecycle Methods
@@ -18,4 +18,4 @@
 * Flexbox
 * Mobile Considerations (Viewport)
 * React-Router
-* Redux
+* Redux (Actions, Dynamic Actions, Subscribing)
