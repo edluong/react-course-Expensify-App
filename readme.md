@@ -19,3 +19,6 @@
 * Mobile Considerations (Viewport)
 * React-Router
 * Redux ((Dynamic) Actions, (Un)Subscribing, Reducers)
+
+## Purposed Concepts
+* Object Spread Operator (TC39: Stage Finished as of 4/15/2019)
