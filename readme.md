@@ -20,6 +20,8 @@
 * React-Router
 * Redux ((Dynamic) Actions, (Un)Subscribing, Reducers)
 * Higher Order Components (HOC, pattern WrappedComponent)
+* Moments.js
+* Airbnb 3rd party component react-dates (need react-addons-shallow-compare)
 
 ## Purposed Concepts
 * Object Spread Operator (TC39: Stage Finished as of 4/15/2019)
