@@ -18,7 +18,7 @@
 * Flexbox
 * Mobile Considerations (Viewport)
 * React-Router
-* Redux ((Dynamic) Actions, (Un)Subscribing, Reducers)
+* Redux ((Dynamic) Actions, (Un)Subscribing, Reducers, History)
 * Higher Order Components (HOC, pattern WrappedComponent)
 * Moments.js
 * Airbnb 3rd party component react-dates (need react-addons-shallow-compare)
